@@ -27,8 +27,10 @@ h1 {
 }
 
 .ant-card img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  max-width: 550px;   /* feste maximale Breite */
+  height: 450px;      /* feste Höhe */
+  object-fit: cover;  /* Bild füllt den Bereich, ohne verzerrt zu werden */
   border-radius: 8px;
 }
 
